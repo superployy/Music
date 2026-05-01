@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "name": "Deutsch",
+    "flag": "🇩🇪",
+    "locale": "de"
+  },
+  "commands": {
+    "play": {
+      "voice_channel_required": "You must be in a voice channel to play music.",
+      "no_permissions": "I don't have permission to join or speak in that voice channel.",
+      "searching_desc": "Searching for **{query}**…"
+    },
+    "skip": {
+      "success": "Skipped the current song."
+    },
+    "stop": {
+      "success": "Stopped playback and cleared the queue."
+    },
+    "pause": {
+      "success": "Paused."
+    },
+    "resume": {
+      "success": "Resumed."
+    },
+    "shuffle": {
+      "success": "Queue shuffled!"
+    },
+    "loop": {
+      "success": "Loop mode set to **{mode}**."
+    },
+    "volume": {
+      "success": "Volume set to **{level}%**."
+    },
+    "lyrics": {
+      "not_found": "Couldn't find lyrics for **{query}**."
+    },
+    "search": {
+      "results_title": "Search Results",
+      "pick_prompt": "Click a number to play that song.",
+      "cancel": "Cancel"
+    },
+    "language": {
+      "title": "Language Settings",
+      "description": "Choose the language for bot responses on this server.",
+      "current": "Current language",
+      "changed": "Language changed to {lang}."
+    },
+    "help": {
+      "description": "A full-featured music bot supporting YouTube, Spotify, SoundCloud and direct links.",
+      "playback_title": "Playback",
+      "queue_title": "Queue & Controls",
+      "extras_title": "Extras",
+      "stats_title": "Live Stats",
+      "guilds": "Servers",
+      "users": "Members",
+      "channels": "Channels",
+      "supports": "Supports"
+    }
+  },
+  "embed": {
+    "now_playing": "Now Playing",
+    "now_playing_short": "Now Playing",
+    "added_to_queue": "Added to Queue",
+    "duration": "Duration",
+    "requested": "Requested by",
+    "volume": "Volume",
+    "loop": "Loop",
+    "queue_size": "Queue",
+    "songs": "songs",
+    "shuffle": "Shuffle",
+    "on": "On",
+    "off": "Off",
+    "progress": "Progress",
+    "views": "views",
+    "queue_title": "Song Queue",
+    "queue_empty": "The queue is empty.",
+    "total_duration": "Total Duration",
+    "total_songs": "Total Songs",
+    "page": "Page",
+    "position": "Position",
+    "by": "Added by"
+  },
+  "events": {
+    "playlist_added": "Added playlist **{name}** ({count} songs) to the queue.",
+    "queue_finished": "The queue has finished. Add more songs with `/play`!",
+    "channel_empty": "The voice channel is empty. Leaving to save resources."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred: {message}",
+    "no_result": "No results found for your search.",
+    "invalid_type": "Unsupported URL or query type.",
+    "not_in_voice": "You need to be in the same voice channel as the bot.",
+    "not_playing": "Nothing is currently playing.",
+    "empty_queue": "The queue is empty.",
+    "song_limit": "Song limit exceeded for this queue.",
+    "network": "Network error — please try again.",
+    "yt_restricted": "That YouTube video is age-restricted or unavailable.",
+    "playlist_not_found": "Could not load that playlist.",
+    "playback": "Playback error: {message}"
+  }
+}
